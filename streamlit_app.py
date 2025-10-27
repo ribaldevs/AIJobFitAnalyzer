@@ -1,4 +1,5 @@
 import streamlit as st
+st.write("Secret loaded:", "OPENAI_API_KEY" in st.secrets)
 from openai import OpenAI
 
 st.title("AI Job Description Analyzer 💼")
